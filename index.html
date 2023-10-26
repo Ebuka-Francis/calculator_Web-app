@@ -34,38 +34,41 @@
   </header>
   <div class="container1">
     <form action="">
-    <div>
-    <input type="text" name="display" >
+    <div class="border" id="wemo">
+
     </div>
     <section>
       <div class="section1">
-        <input type="text" value="7" class="buttn" onclick="display.value += '7' ">
-        <input type="text" value="8" class="buttn" onclick="display.value += '8' ">
-        <input type="text" value="9" class="buttn" onclick="display.value += '9' " >
-        <input type="text" value="00" class="buttn" onclick="display.value += '00' ">
+    <button class="buttn" onclick="seven()"><a href="javascript:void(0)">7</a></button>
+    <button class="buttn" onclick="eight()"><a href="javascript:void(0)">8</a></button>
+    <button class="buttn" onclick="nine()"><a href="javascript:void(0)">9</a></button>
+    <button class="buttn" onclick="zeroZero()"><a href="javascript:void(0)">00</a></button>
       </div>
       <div class="section1">
-        <input type="text" value="4"  class="buttn" onclick="display.value += '4' ">
-        <input type="text" value="5"  class="buttn" onclick="display.value += '5' ">
-        <input type="text" value="6"  class="buttn" onclick="display.value += '6' ">
-        <input type="text" value="+"  class="buttn" onclick="display.value += '+' ">
+    <button class="buttn" onclick="four()"><a href="javascript:void(0)">4</a></button>
+    <button class="buttn" onclick="five()"><a href="javascript:void(0)">5</a></button>
+    <button class="buttn" onclick="six()"><a href="javascript:void(0)">6</a></button>
+    <button class="buttn" onclick="plus()"><a href="javascript:void(0)">+</a></button>
       </div>
       <div class="section1">
-        <input type="text" value="1" class="buttn" onclick="display.value += '1' ">
-        <input type="text" value="2" class="buttn" onclick="display.value += '2' ">
-        <input type="text" value="3" class="buttn" onclick="display.value += '3' ">
-        <input type="text" value="-" class="buttn" onclick="display.value += '-' ">
-      </div>
-      <div class="section1">
-        <input type="text" value="." class="buttn" onclick="display.value += '.' ">
-        <input type="text" value="0" class="buttn" onclick="display.value += '0' ">
-        <input type="text" value="/" class="buttn" onclick="display.value += '/' ">
-        <input type="text" value="X" class="buttn" onclick="display.value += '*' ">
-      </div>
-      <div class="section1">
+    <button class="buttn" onclick="one()"><a href="javascript:void(0)">1</a></button>
+    <button class="buttn" onclick="two()"><a href="javascript:void(0)">2</a></button>
+    <button class="buttn" onclick="three()"><a href="javascript:void(0)">3</a></button>
+    <button class="buttn" onclick="minus()"><a href="javascript:void(0)">-</a></button>
 
-        <input type="text" value="RESET" class="butq" onclick="display.value = '' ">
-        <input type="text" value="=" class="butv" onclick="display.value = eval(display.value)">
+      </div>
+      <div class="section1">
+    <button class="buttn" onclick="dot()"><a href="javascript:void(0)">.</a></button>
+    <button class="buttn" onclick="zero()"><a href="javascript:void(0)">0</a></button>
+    <button class="buttn" onclick="divider()"><a href="javascript:void(0)">/</a></button>
+    <button class="buttn" onclick="multipler()"><a href="javascript:void(0)">x</a></button>
+      </div>
+      <div class="section1">
+    <button class="butq" onclick="myFunction()"><a href="javascript:void(0)">RESET</a></button>
+    <button class="butv" onclick="Noi()"><a href="#">=</a></button>
+
+
+        <!-- <input type="text" value="=" class="butv" onclick="display.value = eval(display.value)"> -->
        
     
       </div>
@@ -88,7 +91,6 @@
 </html>
 <!-- <section>
   <div class="section1">
-    <button class="buttn">7</button>
     <button class="buttn">8</button>
     <button class="buttn">9</button>
     <button class="buttnD">DEL</button>

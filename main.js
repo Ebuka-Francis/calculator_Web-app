@@ -5,13 +5,78 @@
 //     // o.style.display
 // }
 
+function seven(){
+  document.getElementById("wemo").innerHTML += "7";
+
+}
+function eight(){
+  document.getElementById("wemo").innerHTML += "8";
+
+}
+function nine(){
+  document.getElementById("wemo").innerHTML += "9";
+
+}
+function zeroZero(){
+  document.getElementById("wemo").innerHTML += "00";
+
+}
+function four(){
+  document.getElementById("wemo").innerHTML += "4";
+
+}
+function five(){
+  document.getElementById("wemo").innerHTML += "5";
+
+}
+function six(){
+  document.getElementById("wemo").innerHTML += "6";
+
+}
+function plus(){
+  document.getElementById("wemo").innerHTML += "+";
+
+
+}
+function one(){
+  document.getElementById("wemo").innerHTML += "1";
+
+
+}
+function two(){
+  document.getElementById("wemo").innerHTML += "2";
+}
+function three(){
+  document.getElementById("wemo").innerHTML += "3";
+}
+function minus(){
+  document.getElementById("wemo").innerHTML += "-";
+}
+function dot(){
+  document.getElementById("wemo").innerHTML += ".";
+}
+function zero(){
+  document.getElementById("wemo").innerHTML += "0";
+}
+function divider(){
+  document.getElementById("wemo").innerHTML += "/";
+}
+function multipler(){
+  document.getElementById("wemo").innerHTML += "*";
+}
+function myFunction() {
+  document.getElementById("wemo").innerHTML = '';
+}
+function reset() {
+  document.getElementById("wemo").innerHTML = '';
+}
 
 function Noi() {
-  document.querySelector("display").innerHTML = eval(display.value);
+  document.querySelector("#wemo").innerHTML = eval(wemo.innerHTML);
 }
 
 let p = document.querySelector("body");
-let i = document.querySelector("input");
+let i = document.querySelector(".border");
 let s = document.querySelector("section");
 let but = document.querySelector(".but");
 const buttons = document.querySelectorAll("input");
