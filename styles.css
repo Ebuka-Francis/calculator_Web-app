@@ -30,6 +30,10 @@ textarea,
 select {
   font: inherit;
 }
+button {
+  border:none;
+  
+}
 
 .container {
   width: min(100% - 56vw, 1128px);
