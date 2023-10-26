@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" href="styles.css">
+  <title>Frontend Mentor | Calculator app</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+  </style>
+</head>
+<body>
+  
+  <header>
+    <div class="container">
+      
+      <button class="but">calc</button>
+    <div class="headertext2">
+      <!-- <div class="hdtxt"><h2>Theme</h2></div> -->
+      <div class="hdtxt2">
+        <div class="texthd">
+          <p class="pyo" onclick="p0()" ><a href="#">1</a></p>
+          <p class="pyo1" onclick="p1()"><a href="#">2</a></p>
+          <p class="pyo2" onclick="p2()"><a href="#">3</a></p>
+        </div>
+      </div>
+    </div>
+  </div>
+  </header>
+  <div class="container1">
+    <form action="">
+    <div>
+    <input type="text" name="display" >
+    </div>
+    <section>
+      <div class="section1">
+        <input type="text" value="7" class="buttn" onclick="display.value += '7' ">
+        <input type="text" value="8" class="buttn" onclick="display.value += '8' ">
+        <input type="text" value="9" class="buttn" onclick="display.value += '9' " >
+        <input type="text" value="00" class="buttn" onclick="display.value += '00' ">
+      </div>
+      <div class="section1">
+        <input type="text" value="4"  class="buttn" onclick="display.value += '4' ">
+        <input type="text" value="5"  class="buttn" onclick="display.value += '5' ">
+        <input type="text" value="6"  class="buttn" onclick="display.value += '6' ">
+        <input type="text" value="+"  class="buttn" onclick="display.value += '+' ">
+      </div>
+      <div class="section1">
+        <input type="text" value="1" class="buttn" onclick="display.value += '1' ">
+        <input type="text" value="2" class="buttn" onclick="display.value += '2' ">
+        <input type="text" value="3" class="buttn" onclick="display.value += '3' ">
+        <input type="text" value="-" class="buttn" onclick="display.value += '-' ">
+      </div>
+      <div class="section1">
+        <input type="text" value="." class="buttn" onclick="display.value += '.' ">
+        <input type="text" value="0" class="buttn" onclick="display.value += '0' ">
+        <input type="text" value="/" class="buttn" onclick="display.value += '/' ">
+        <input type="text" value="X" class="buttn" onclick="display.value += '*' ">
+      </div>
+      <div class="section1">
+
+        <input type="text" value="RESET" class="butq" onclick="display.value = '' ">
+        <input type="text" value="=" class="butv" onclick="display.value = eval(display.value)">
+       
+    
+      </div>
+
+    </section>
+  </form>
+  </div>
+  
+  
+  
+  
+  
+  
+  <!-- <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="#">Your Name Here</a>.
+  </div> -->
+  <script src="main.js"></script>
+</body>
+</html>
+<!-- <section>
+  <div class="section1">
+    <button class="buttn">7</button>
+    <button class="buttn">8</button>
+    <button class="buttn">9</button>
+    <button class="buttnD">DEL</button>
+  </div>
+  <div class="section1">
+    <button class="buttn">4</button>
+    <button class="buttn">5</button>
+    <button class="buttn">6</button>
+    <button class="buttn">+</button>
+  </div>
+  <div class="section1">
+    <button class="buttn">1</button>
+    <button class="buttn">2</button>
+    <button class="buttn">3</button>
+    <button class="buttn">-</button>
+  </div>
+  <div class="section1">
+    <button class="buttn">.</button>
+    <button class="buttn">0</button>
+    <button class="buttn">\</button>
+    <button class="buttn">X</button>
+  </div>
+  <div class="section1">
+    <button class="butq">RESET</button>
+    <button class="butv">=</button>
+
+  </div>
+
+</section> -->
